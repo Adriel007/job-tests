@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Cost Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Delivery Cost Calculator</h1>
+        <form>
+            <label for="base_url">Base URL:</label>
+            <input type="text" id="base_url" name="base_url" required>
+
+            <label for="source_kladr">Source Kladr:</label>
+            <input type="text" id="source_kladr" name="source_kladr" required>
+
+            <label for="target_kladr">Target Kladr:</label>
+            <input type="text" id="target_kladr" name="target_kladr" required>
+
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" step="0.01" required>
+
+            <button type="button" id="sender">Calculate</button>
+        </form>
+
+        <div id="result">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+
+    <script defer src="./scripts.js"></script>
+</body>
+
+</html>
