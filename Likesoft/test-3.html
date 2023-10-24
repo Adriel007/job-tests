@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Изменение порядка кнопок</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        button {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn1">1</button>
+    <button id="btn2">2</button>
+    <button id="btn3">3</button>
+
+    <script>
+        $(document).ready(function() {
+            /**
+             * Функция для изменения порядка кнопок.
+             */
+            function rearrangeButtons() {
+                const button1 = $("#btn1");
+                const button2 = $("#btn2");
+                const button3 = $("#btn3");
+                
+                // Перемещаем первую кнопку в конец
+                button1.appendTo(button2.parent());
+                
+                // Перемещаем вторую кнопку в конец
+                button2.appendTo(button3.parent());
+            }
+
+            // Привязываем событие клика ко всем кнопкам
+            $("button").click(function() {
+                // Вызываем функцию для изменения порядка кнопок
+                rearrangeButtons();
+            });
+        });
+    </script>
+</body>
+</html>
