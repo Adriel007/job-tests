@@ -55,4 +55,14 @@ This documentation outlines the available endpoints and their functionality for 
 - **Error (500 Internal Server Error):** If an error occurs while updating the user's information in the database.
 - **Error (404 Not Found):** If the specified `user_id` is not found in the database.
 
-This documentation provides a clear overview of the available endpoints, their purposes, the expected request parameters, and the possible response outcomes. It should help developers understand how to interact with the User API.
+Endpoint: GET /user-actions
+Description: Retrieve the user action history with optional filters by user ID and page navigation.
+Query Parameters:
+- userId (number): User ID (required).
+- page (number): Page number (optional, default: 1).
+
+Usage example:
+- /user-actions?userId=1&page=2
+
+Response:
+- Array of user action objects.
