@@ -1,5 +1,3 @@
-Aqui está uma lista de tarefas (To-Do List) com as etapas que você precisa seguir para implementar os dois serviços, um em JavaScript (JS) e outro em TypeScript (TS), ambos usando um banco de dados PostgreSQL:
-
 **Serviço do Usuário (JS):**
 
 1. Configurar o ambiente de desenvolvimento.
