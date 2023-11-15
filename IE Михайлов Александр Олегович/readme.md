@@ -2,7 +2,7 @@
 
 ## PHP/PostgreSQL разработчик
 
-### Not started
+### Archived before start
 
 ---
 

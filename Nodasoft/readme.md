@@ -2,7 +2,7 @@
 
 ## PHP-разработчик middle+ (удаленно)
 
-### Not started
+### Finalized
 
 ---
 
