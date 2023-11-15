@@ -2,7 +2,7 @@
 
 ## JavaScript developer
 
-### Not started
+### Finalized
 
 ---
 
