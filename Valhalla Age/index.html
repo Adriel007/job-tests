@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div id="game-container">
+        <h1>Tic Tac Toe</h1>
+        <div id="status">Waiting for players...</div>
+        <table id="game-board">
+            <tr>
+                <td class="cell" id="cell-0"></td>
+                <td class="cell" id="cell-1"></td>
+                <td class="cell" id="cell-2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="cell-3"></td>
+                <td class="cell" id="cell-4"></td>
+                <td class="cell" id="cell-5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="cell-6"></td>
+                <td class="cell" id="cell-7"></td>
+                <td class="cell" id="cell-8"></td>
+            </tr>
+        </table>
+        <div id="game-info">
+            <p>Nickname: <span id="nickname"></span></p>
+            <p>Wins: <span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
