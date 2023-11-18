@@ -2,7 +2,7 @@
 
 ## Full Stack Web Developer (приоритет PHP+MySQL)
 
-### Not started
+### Abandoned
 
 ---
 
