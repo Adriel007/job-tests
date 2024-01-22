@@ -2,7 +2,7 @@
 
 ## PHP-разработчик
 
-### Not started
+### Finalized
 
 ---
 
