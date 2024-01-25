@@ -1,0 +1,3 @@
+<install version="2021010100" component="block_quadratic_solver">
+    <execute function="xmldb_block_quadratic_solver_install"/>
+</install>
