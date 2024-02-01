@@ -1,0 +1,13 @@
+header,
+main {
+    background-image: linear-gradient(to right, #fff 50%, #c4c4c4 50%);
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+    accent-color: #000;
+}
+
+.w-40 {
+    width: 40% !important;
+}
