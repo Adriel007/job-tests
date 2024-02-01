@@ -2,7 +2,7 @@
 
 ## Desenvolvedor NodeJS
 
-### Not completed
+### Completed
 
 ---
 
