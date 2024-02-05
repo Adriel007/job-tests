@@ -1,0 +1,4 @@
+Este é um exemplo de conteúdo de arquivo de texto.
+Ele contém várias linhas de texto para fins de teste.
+Você pode adicionar qualquer conteúdo aqui para testar o script.
+Certifique-se de salvar este conteúdo em um arquivo chamado exemplo.txt.

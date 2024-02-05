@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Загрузка файла .txt</h2>
+        <input type="file" id="fileInput">
+        <div id="status"></div>
+    </div>
+
+    <div class="container">
+        <h2>Динамический выбор полей</h2>
+        <p>Выберите тип:</p>
+        <select name="type_val">
+            <option value="1">Тип 1</option>
+            <option value="2">Тип 2</option>
+            <option value="3">Тип 3</option>
+            <option value="4">Тип 4</option>
+            <option value="5">Тип 5</option>
+        </select>
+
+        <div class="fields">
+            <input name="input_1" type="text" placeholder="Поле 1" style="display: none;">
+            <input name="input_2" type="text" placeholder="Поле 2" style="display: none;">
+            <input name="input_3" type="text" placeholder="Поле 3" style="display: none;">
+            <input name="input_4" type="text" placeholder="Поле 4" style="display: none;">
+            <input name="input_5" type="text" placeholder="Поле 5" style="display: none;">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="visitor_counter.js"></script>
+</body>
+
+</html>
